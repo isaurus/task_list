@@ -15,19 +15,19 @@ public class TaskRepository {
         this.taskDAO = new TaskDAO(ctx);
     }
 
-    private Task getTaskById(int id){
+    public Task getTaskById(int id){
         return taskDAO.getTaskById(id);
     }
 
-    private List<Task> getAllTasks(){
+    public List<Task> getAllTasks(){
         return taskDAO.getAllTasks();
     }
 
-    private void updateTask(Task task){
+    public void updateTask(Task task){
         taskDAO.updateTask(task);
     }
 
-    private void deleteTask(int id){
+    public void deleteTask(int id){
         taskDAO.deleteTask(id);
     }
 
