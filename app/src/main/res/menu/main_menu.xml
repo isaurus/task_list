@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemOrderBy"
+        android:title="@string/item_order_by" />
+    <item
+        android:id="@+id/itemExit"
+        android:title="@string/item_exit" />
+</menu>
